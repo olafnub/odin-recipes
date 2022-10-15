@@ -1,0 +1,28 @@
+.phone {
+    /* border: 1px solid green; */
+    display: inline;
+    height: 200px;
+    margin: 20px;
+    width: 200px;
+    padding: 20px;
+}
+.phone.two {
+    border: 1px solid green;
+}
+.apple {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid green;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+}
+.second {
+    border: 1px solid green;
+    display: flex;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+}
