@@ -19,3 +19,20 @@ h1 {
 .unrelated {
     background-color: mediumpurple;
 }
+.introduction {
+    background-color: gray;
+    /* display: flex; */
+}
+.introduction p{
+    font-size: 10px;
+    font-weight: bold;
+    font-style:italic;
+    border: 5px double mediumpurple;
+    padding: 10px;
+    margin: 10px;
+}
+#welcome {
+    text-align: left;
+    margin-left: 5px;
+}
+
