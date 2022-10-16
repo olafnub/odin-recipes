@@ -2,6 +2,9 @@
     text-align: center;
     font-size: 20px;
 }
+.food {
+    padding: 30px;
+}
 h1 {
     font-weight: 200;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -35,4 +38,31 @@ h1 {
     text-align: left;
     margin-left: 5px;
 }
-
+#rice {
+    margin: 0;
+    color:cornflowerblue;
+    font-weight:900;
+    padding: 10px;
+    border-top:4px dotted #f4e8a4;
+    border-bottom: 5px dotted rosybrown;
+    border-left: 12px double green;
+    border-right: 12px solid brown;
+}
+.combination, .combination h3{
+    /* display: inline; */
+    border: 2px solid green;
+    padding: 1em;
+}
+.combination p {
+    border: 1px solid green;
+    display: inline;
+}
+.footer {
+    display: inline-flex;
+    border: 2px solid green;
+    padding: 5px;
+    margin-top: 10px;
+}
+.footer p {
+    padding: 5px;
+}
