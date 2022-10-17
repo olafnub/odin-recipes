@@ -3,6 +3,15 @@
     margin-left: auto;
     margin-right: auto;
     border: 3px solid mediumpurple;
+    padding: 5px;
+}
+ol {
+    border: 1px solid green;
+    width: 250px;
+    padding-left: 0;
+}
+h4 {
+    margin-bottom: 0;
 }
 ul {
     list-style: none;
@@ -20,6 +29,11 @@ li, .labels {
     display: flex;
     justify-content:space-between;
     border-right: 0;
+    padding-bottom: 0;
+}
+.labels p {
+    border-top: 1px dotted green;
+    border-bottom: 1px dotted purple;
 }
 .items, .quantity, .price {
     font-size:smaller;
@@ -39,4 +53,17 @@ li, .labels {
 }
 .box ul {
     border-right: 2px solid black;
+}
+footer {
+    margin-left: auto;
+    width: 200px;
+    border: 2px double green;
+}
+.ending {
+    display: flex;
+    font-size: 10px;
+    padding: 0;
+}
+.ending p {
+    padding: 0 3px;
 }
